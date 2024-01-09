@@ -3,7 +3,7 @@
 ![Demo Photo](demo.png)
 
 ## Demo Video
-<iframe width="1366" height="auto" src="https://www.youtube.com/embed/nxOrnQxoCEw?si=dIOBd39Qv1JPTc_v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<video width="1366" height="auto" src="https://github.com/urazmaxambetov/react-projects/assets/155057920/e86b96f8-ae21-4fb4-8c7b-2a1c9a53e0c2"></video>
 
 ## Usage:
 
