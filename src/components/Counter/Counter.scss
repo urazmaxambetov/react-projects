@@ -1,0 +1,54 @@
+@mixin btn_color($color, $shadow-color) {
+  background-color: $color;
+  border-color: $color;
+  box-shadow: 5px 5px $shadow-color;
+  
+  &:active {
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px $shadow-color, inset 5px 5px 5px $shadow-color;
+  }
+}
+
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+
+  &__title {
+    color: #fff;
+    font-size: 100px;
+    margin-bottom: 50px;
+  }
+
+  &__btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 15px 25px;
+    border-radius: 15px; 
+    color: #fff;
+    background-color: #ccc;
+    border: none;
+    box-shadow: 5px 5px #777;
+    transition: all .1s linear;
+    font-size: 20px;
+  
+    &:active {
+      transform: translate(3px, 3px);
+      box-shadow: 1px 1px #777;
+    }
+
+    &_color_blue {
+      @include btn_color(#03A9F4, #01579B);
+    }
+    
+    &_color_red {
+      @include btn_color(#EE3E38, #ac1533);
+    }
+  }
+}
